@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat"),
+        url("/fonts/montserrat-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Montserrat"),
+        url("/fonts/montserrat-medium.woff") format("woff");
+    }
+
+    body {
+        font-family: "Montserrat", "Verdana", sans-serif;
+        font-style: normal;
+      }   
