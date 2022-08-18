@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: local("Montserrat"),
-        url("/fonts/montserrat-regular.woff") format("woff");
+        url("../fonts/montserrat-regular.woff") format("woff");
 }
 
 @font-face {
@@ -11,10 +11,178 @@
     font-style: normal;
     font-weight: 500;
     src: local("Montserrat"),
-        url("/fonts/montserrat-medium.woff") format("woff");
+        url("../fonts/montserrat-medium.woff") format("woff");
     }
 
-    body {
-        font-family: "Montserrat", "Verdana", sans-serif;
-        font-style: normal;
-      }   
+body {
+    font-family: "Montserrat", "Verdana", sans-serif;
+    font-style: normal;
+    background: #EFE6E4;
+
+    }   
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border-style: none;
+} 
+
+.page-head {
+    background: url(../фоновые/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash%201.jpg);
+}
+
+.menu-item a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;  
+}
+
+.promo {
+    font-weight: 400;
+    color: #533738;
+}
+
+.promo h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;    
+}
+
+.promo p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.promo-button {
+    background: #CC8B86;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+}
+   
+.section-head {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+}
+
+.company-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.achievements {
+    background: #8D7370;
+    color: #FFFFFF; 
+}
+
+.achievement {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;  
+}
+
+.achievement span {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.work {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: url(../контентные/image%2055.jpg);
+}
+
+.work-button {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+    background: #EFE6E4;
+}
+
+.work h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.team, .howwork {
+    background: #E2C4BA;
+}
+
+.team-memb p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.work-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #533738;
+}
+
+.work-item span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: url(../векторные%20и%20лого/Ellipse%2013.svg);
+}
+
+.text-review {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.reviews-button {
+    background: #EFE6E4;
+}
+
+.order, .order-contact input {
+    background: #8D7370;
+}
+
+.order-head {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
