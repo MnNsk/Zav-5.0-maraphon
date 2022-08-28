@@ -12,7 +12,7 @@
     <header class="page-head">
         <div class="nav-container">
             <a href="" class="logo">
-           <img src="/векторные%20и%20лого/Group%20208.png" alt="Логотип SCANDI" width="" height=""></a>
+           <img src="/векторные%20и%20лого/Group%20208.png" alt="Логотип SCANDI" width="90px" height="25px"></a>
             <nav> 
                     <ul class="menu">
                         <li class="menu-item">
@@ -40,7 +40,7 @@
             </a>
     </div>
     <section class="tittle">
-        <div class="container">
+        <div class="container-tittle">
             <div class="promo">
                 <h1>Поможем сделать вашу квартиру уютнее</h1>
                 <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
@@ -51,7 +51,7 @@
 </header>
     <main>
     <section class="company" id="company">
-        <div class="container"> 
+        <div class="container-company"> 
             <h2 class="section-head">о нас</h2>
         <div class="company-img">
             <img src="/контентные/shche_-team-PFi1uWHh2dQ-unsplash%201.jpg" alt="Белая ваза с сухоцветом рядом с бокалами на сервированном столе">
@@ -62,7 +62,7 @@
         </div>
     </div>
     <section class="achievements">
-            <div class="container">
+            <div class="container-achievements">
                 <ul>
                     <li class="achievement"><span>5</span> лет опыта</li>
                     <li class="achievement"><span>100</span> проектов</li>
@@ -71,23 +71,25 @@
             </div>    
     </section>
     <section class="works" id="works">
-        <div class="container">
-            <h2 class="section-head">наши работы</h2>
+        <h2 class="section-head">наши работы</h2>
+        <div class="container-works">
             <div class="work">
                 <h3>Квартира-студия 30 кв.м.</h3>
                 <p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
             </div>
-            <img src="/контентные/Rectangle%20134.jpg" alt="Кухня в светлых тонах с барной стойкой">
-            <img src="/контентные/Rectangle%20132.jpg" alt="Гостиная в теплых светлых тонах">
-            <img src="/контентные/image%2056.jpg" alt="Ванная с серой стеной и растением в углу">
-            <button class="work-button">
-                Смотреть ещё <img src="/векторные%20и%20лого/Arrow%203.svg" alt="стрелка">
-            </button>
+            <img class="img-one" src="/контентные/Rectangle%20134.jpg" alt="Кухня в светлых тонах с барной стойкой">
+            <img class="img-two" src="/контентные/Rectangle%20132.jpg" alt="Гостиная в теплых светлых тонах">
+            <img  class="img-three" src="/контентные/image%2056.jpg" alt="Ванная с серой стеной и растением в углу">
         </div>
+        <div class="workbutton">
+        <button class="work-button">
+            Смотреть ещё <img src="/векторные%20и%20лого/Arrow%203.svg" alt="стрелка">
+        </button>
+    </div>
     </section>
     <section class="team" id="team">
-        <div class="container">
-            <h2 class="section-head">команда</h2>
+        <h2 class="section-head">команда</h2>
+        <div class="container-team">
             <div class="team-memb">
                 <img src="/контентные/image%2061.jpg" alt="Смеющаяся девушка с рыжими кудрявыми волосами">
                 <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.</p>
@@ -103,19 +105,19 @@
         </div>
     </section>
     <section class="howwork" id="howwork">
-        <div class="container">
-            <h2 class="section-head">как мы работаем</h2>
-            <ol>
+        <h2 class="section-head">как мы работаем</h2>
+        <div class="container-howwork">
+            <ul>
                 <li class="work-item"><span>1</span> Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</li>
                 <li class="work-item"><span>2</span>Подбираем мебель, текстиль, аксессуары. Делаем 3D- визуализацию.</li>
                 <li class="work-item"><span>3</span>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</li>
                 <li class="work-item"><span>4</span>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
-            </ol>
+            </ul>
         </div>
     </section>
     <article class="reviews" id="reviews">
-        <div class="container">
-            <h2 class="section-head">отзывы</h2>
+        <h2 class="section-head">отзывы</h2>
+        <div class="container-reviews">
             <div class="text-review">
                 <q>Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома. Работа шла быстро, было очень приятно общаться и взаимодествовать с сотрудниками. Не ожидала, что это будет так легко! Буду советовать и своим друзьям к вам обращаться!</q>
                 <p>АННА БЕЛОВСКАЯ</p>  <!--  цитата! -->
@@ -124,16 +126,17 @@
                 <img src="/контентные/Rectangle%20141.jpg" alt="Светлая гостиная с большими окнами в бежевых тонах">
                 <img src="/контентные/image%2062.jpg" alt="Кухня с барной стойкой обшитая деревом">
             </div>
-            <button class="reviews-button">
-                <img src="/векторные%20и%20лого/Ellipse%204.2.svg" alt="Стрелки">
-            </button>
-            <button class="reviews-button">
-                <img src="/векторные%20и%20лого/Ellipse%204.2.svg" alt="Стрелки">
-            </button>
         </div>
+        <button class="reviews-button">
+            <img src="/векторные%20и%20лого/Ellipse%204.2.svg" alt="Стрелки">
+        </button>
+        <button class="reviews-button">
+            <img src="/векторные%20и%20лого/Ellipse%204.2.svg" alt="Стрелки">
+        </button>
     </article>
     <section class="order" id="order">
-        <div class="container">
+        <div class="container-order">
+            <div class="order-form">
             <h2 class="order-head">оставить заявку</h2>
             <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
             <form action="order-contact">
@@ -141,6 +144,7 @@
                 <input type="text" placeholder="Введите телефон">
                 <button class="promo-button">Оставить заявку</button>
             </form>
+        </div>
             <div class="order-img">
                 <img src="/контентные/image%2054.jpg" alt="Расположение на Яндекс.Картах">
             </div>
@@ -148,10 +152,9 @@
     </section>
 </main>
 <footer>
-    <div class="container"> 
+    <div class="container-footer"> 
         <div class="footer-contacts">
-            +7 (981) 857-46-24
-            г. Санкт-петербург, ул. Большая Конюшенная, 19
+            <p>+7 (981) 857-46-24 <span>г. Санкт-петербург, ул. Большая Конюшенная, 19</span></p>
         </div>
         <div class="footer-brend">
             ИП Королёва А.А.
