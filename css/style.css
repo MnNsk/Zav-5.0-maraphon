@@ -35,7 +35,7 @@ button {
 
 .page-head {
     /* display: flex; */
-    background: url("../fon/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash1.jpg");
+    background: url("/fon/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -203,7 +203,7 @@ button {
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
-    background: url("../fon/image55.jpg");
+    background: url("/fon/image55.jpg");
     background-repeat: no-repeat;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -321,7 +321,7 @@ button {
     font-size: 30px;
     line-height: 30px;
     color: #FFFFFF;
-    background: url("../fon/image55.jpg");
+    background: url("/fon/image55.jpg");
     background-position: center center;
     margin: auto;
     margin-bottom: 20px;
