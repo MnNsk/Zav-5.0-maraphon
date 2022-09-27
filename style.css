@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: local("Montserrat"),
-        url("../fonts/montserrat-regular.woff") format("woff");
+        url("fonts/montserrat-regular.woff") format("woff");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 500;
     src: local("Montserrat"),
-        url("../fonts/montserrat-medium.woff") format("woff");
+        url("fonts/montserrat-medium.woff") format("woff");
     }
 
 body {
@@ -35,7 +35,7 @@ button {
 
 .page-head {
     /* display: flex; */
-    background: url(../фоновые/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash%201.jpg);
+    background: url(фоновые/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash%201.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -203,7 +203,7 @@ button {
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
-    background: url(../контентные/image%2055.jpg);
+    background: url(контентные/image%2055.jpg);
     background-repeat: no-repeat;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -321,7 +321,7 @@ button {
     font-size: 30px;
     line-height: 30px;
     color: #FFFFFF;
-    background: url(../векторные%20и%20лого/Ellipse%2013.svg);
+    background: url(векторные%20и%20лого/Ellipse%2013.svg);
     background-position: center center;
     margin: auto;
     margin-bottom: 20px;
