@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: local("Montserrat"),
-        url("/fonts/montserrat-regular.woff") format("woff");
+        url("Zav-5.0-maraphon/fonts/montserrat-regular.woff") format("woff");
 }
 
 @font-face {
