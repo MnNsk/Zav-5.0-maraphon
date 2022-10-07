@@ -202,8 +202,7 @@ button {
 
 .container-works {
     display: grid;
-    grid-template-columns: auto 488px 204px 488px auto;
-    grid-template-rows: 451px 451px;
+    grid-template-columns: 5fr 2fr 5fr;
     gap: 30px 20px;
 }
 
