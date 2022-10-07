@@ -163,6 +163,11 @@ button {
     margin-top: 20px;
 }
 
+.ul-container-achievements {
+    width: 1036px;
+    margin: 0 auto;
+}
+
 .container-achievements ul {
     display: flex;
     justify-content: space-evenly;
