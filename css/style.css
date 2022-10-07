@@ -189,8 +189,15 @@ button {
     display: block;
 }
 
+.works {
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 65px;
+}
+
 .works .section-head {
-    margin-left: 10%;
+    text-align: left;
+    margin-top: 0;
 }
 
 .container-works {
