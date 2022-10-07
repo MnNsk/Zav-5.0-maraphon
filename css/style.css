@@ -170,7 +170,7 @@ button {
 
 .container-achievements ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0;
 }
 
